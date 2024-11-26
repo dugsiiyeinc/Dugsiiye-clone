@@ -406,4 +406,14 @@ header {
     .mobile-menu .menus .btns .Signup:hover {
         background-color: #00835f;
     }
+    .Courses-bottom{
+        display: grid;
+        grid-template-columns:1fr;
+        margin-top: 30px;
+        
+    }
+
+    .Courses-bottom img{
+        width: 100%;
+    }
 }
