@@ -109,9 +109,15 @@ header {
 
 }
 
+.
 
 
 
+footer{
+    margin-block: 2rem;
+    position: relative;
+    top: 1.6rem;
+}
 
 
 
