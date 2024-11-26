@@ -218,7 +218,24 @@ label{
     border: none;
     float: right;
    }
+   
+   .footer .footer-right{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.footer .footer-right i{
+    font-size: 1.3rem;
+    color: 
+    rgb(156, 163, 175);
+}
+   @media(max-width:1050px) {
+    .desktop-menu img {
+        width: 0;
+    }
 
+}
 
 
 
