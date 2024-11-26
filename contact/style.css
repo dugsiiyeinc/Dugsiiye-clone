@@ -106,6 +106,119 @@ header {
     z-index: 9999;
 
 }
+.Contact{
+    display: grid;
+        grid-template-columns: repeat(3,1fr);
+    border-radius: 15px;
+    box-shadow: 0 7px 8px rgba(0,0,0,0.1);
+    background-color: #f3f4f6;
+    margin-bottom: 30px;
+   }
+
+   .left-Contact{
+    background-color: #00835f;
+    padding: 70px 40px;
+
+
+  
+   }
+
+   .left-Contact h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 500;
+    color: white;
+   }
+   .left-Contact p{
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    color: white;
+   }
+   #icon-contax{
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    color: white;
+   }
+   #icon-contax span{
+    margin: 20px;
+   }
+
+   #icon-contax a{
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+   }
+
+   #icon-contax .fa-brands, .fa-solid, .fa-regular{
+    font-size: 25px;
+    padding:15px 0px;
+   }
+
+/* right contact */
+   .right-Contact{
+    padding: 70px 40px;
+    grid-column: span 2;
+    background-color: #fcfcfc; 
+
+       
+   }
+   .right-Contact h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 500;
+   }
+   .group{
+    display: flex;
+    gap: 40px;
+    
+   }
+
+  .inputs{
+    display: block;
+    width: 100%;
+   }
+label{
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #172439;
+}
+   input{
+    width: 100%;
+    height: 50px;
+    margin:10px 0px;
+    border-radius: 5px;
+    border: 1px solid gray; 
+    box-shadow: 0 2px 6px rgba(15,23,42,.08);
+    text-align:left; 
+    padding: 0px 10px; 
+   } 
+   input:focus{
+    outline: 1px solid green;
+   }
+
+
+   textarea{
+    display: block;
+    width: 100%;
+    position: relative;
+   }
+   button{
+    display: inline;
+    margin-top: 30px;
+    padding: 20px 30px;
+    background-color: #25e2a2;
+    color: white;
+    margin-inline: auto;
+    border-radius: 15px;
+    border: none;
+    float: right;
+   }
+
 
 
 
