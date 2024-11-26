@@ -109,6 +109,35 @@ header {
 
 }
 
+@media (max-width:1110px){
+    .Courses-bottom{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 30px;
+    }
+    .Courses-bottom img{
+        width: 100%;
+    }
+    .courses-vidoe{
+        margin-block: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+    iframe{
+        height: 684px;
+    }
+    
+}
+
+
+
+@media(max-width:1050px) {
+    .desktop-menu img {
+        width: 0;
+    }
+
+}
+
 @media (max-width:767px) {
 
     
