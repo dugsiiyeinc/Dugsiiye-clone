@@ -14,6 +14,12 @@ img {
     width: 100%;
 }
 
+.poeple-say{
+    width: min(50%, 1266px);
+    margin-inline: auto;
+    z-index: 99;
+}
+
 .container {
     width: min(90%, 1266px);
     margin-inline: auto;
@@ -334,16 +340,7 @@ header {
     color: #6b7280;
 }
 
-/* .container .grid-courses {
-    display: flex;
-    gap: 2rem;
-    width: 100%;
-    justify-content: center;
-} */
-
 .courses .container .grid-courses  {
-    /* display: flex;
-    flex-direction: column; */
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
     gap: 2rem;
@@ -358,15 +355,11 @@ header {
    border-radius: 5px;
    cursor: pointer;
    transition: .3s ease;
-
 }
-
-
 
 .courses .container .grid-courses .box  img{
     border-radius: 5px 5px 0 0 ;
     transition: .3s ease;
-
 }
 
 .courses .container .grid-courses .box:hover img{
@@ -540,7 +533,7 @@ header {
     margin-block:5rem;
 }
 
-.student-say .container {
+.student-say .poeple-say {
     display: flex;
     flex-direction: column;
     /* gap: .6rem; */
@@ -548,26 +541,26 @@ header {
 
 }
 
-.student-say .container h1{
+.student-say .poeple-say h1{
     font-weight: 700;
     font-size: 2rem;
 }
 
-.student-say .container p{
+.student-say .poeple-say p{
     margin: 0;
     font-weight: 400;
     font-size: 1rem;
     color: rgb(107, 114, 128);
 }
 
-.student-say .container .bottom{
+.student-say .poeple-say .bottom{
     margin-top: 3.5rem;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 2rem;
 }
 
-.student-say .container .bottom .box1{
+.student-say .poeple-say .bottom .box1{
     display: flex;
     flex-direction: column;
     gap: .3rem;
@@ -578,31 +571,31 @@ header {
     border-radius: 8px;
 }
 
-.student-say .container .bottom .box1 img{
+.student-say .poeple-say .bottom .box1 img{
   width: 100px;
   height: 100px;
   border-radius: 50%;
 }
 
-.student-say .container .bottom .box1 i{
+.student-say .poeple-say .bottom .box1 i{
     position: relative;
-    right: 8rem;
+    right: 4rem;
     margin-block: .4rem;
-    font-size: 3rem;
+    font-size: 1.2rem;
     color: #00835f;
 
 }
 
-.student-say .container .bottom .box1 p{
+.student-say .poeple-say .bottom .box1 p{
     font-size: .75rem;
     text-align: center;
 }
 
-.student-say .container .bottom .box1 h2{
+.student-say .poeple-say .bottom .box1 h2{
     font-size: 1.3rem;
     font-weight: 700;
 }
-.student-say .container .bottom .box1 span{
+.student-say .poeple-say .bottom .box1 span{
     font-size: .75rem;
     margin-bottom: .5rem;
     color: rgb(107, 114, 128);
@@ -614,9 +607,10 @@ footer .container{
     justify-content: space-between;
     margin-bottom: 1rem;
     margin-top: 1.5;
+    
 }
 
-footer .container p{
+footer .container .foter-left{
     font-weight: 400;
     font-size: 1rem;
     color: #9ca3af;
@@ -645,6 +639,8 @@ footer .container .foter-right i:hover{
     .desktop-menu img {
         width: 0;
     }
+
+ 
 
 
 
@@ -698,7 +694,11 @@ footer .container .foter-right i:hover{
 
 @media (max-width:767px) {
 
-    
+    .container {
+        width: min(70%, 767px);
+        margin-inline: auto;
+        z-index: 99;
+    }
 
     .desktop-menu {
         display: none;
@@ -931,22 +931,32 @@ footer .container .foter-right i:hover{
     }
 
     footer .container{
-        display: grid;
-        align-items: center;
+        display: block;
         align-items: center;
         justify-content: center;
-        /* margin-bottom: 1rem;
-        margin-top: 1.5; */
+        margin-inline: auto;
     }
 
-    footer .container p{
-        margin-left: 0;
+    footer .container .foter-left{
         text-align: center;
+        margin-block: .5rem;
+    }
+
+    footer .container .foter-left{
+        font-size: .75rem;
     }
 
     footer .container .foter-right{
-        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+
+    footer .container .foter-right i{
+        font-size: 1rem;
+    }
+
+   
 
     
 }
