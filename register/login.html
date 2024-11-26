@@ -84,6 +84,33 @@
       </div>
     </nav>
   </header>
- 
+     <!-- js -->
+     <script>
+      const hamburger = document.querySelector('.hambuger');
+      const mobileMenu = document.querySelector(".mobile-menu");
+      const icons = document.querySelectorAll("i");
+    
+      hamburger.addEventListener("click", function (event) {
+        const isVisible = mobileMenu.getAttribute('data-visible');
+        if (isVisible == "true") {
+          // qari hiding
+          mobileMenu.setAttribute('data-visible', "false");
+          icons[0].setAttribute('data-visible', "true");
+          icons[1].setAttribute('data-visible', "false");
+        } else if (isVisible == "false") {
+          // soo bandhig showing
+          mobileMenu.setAttribute('data-visible', "true");
+          icons[0].setAttribute('data-visible', "false");
+          icons[1].setAttribute('data-visible', "true");
+        }
+      });
+    
+    const signIN = document.getElementById('signIN')
+
+    signIN.addEventListener('submit', (e)=>{
+      e.preventDefault()
+      window.location.href = '/contact/index.html'
+    })  
+    </script>
 </body>
 </html>
