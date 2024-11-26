@@ -18,6 +18,7 @@ img {
     width: min(90%, 1266px);
     margin-inline: auto;
     z-index: 99;
+    
 }
 
 header {
