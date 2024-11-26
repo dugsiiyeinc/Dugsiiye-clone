@@ -193,3 +193,195 @@ label{
 }
 
 
+@media(max-width:1050px) {
+  .desktop-menu img {
+      width: 0;
+  }
+
+}
+
+@media (max-width:767px) {
+
+    
+
+  .desktop-menu {
+      display: none;
+  }
+
+  .hambuger {
+      display: flex;
+      z-index: 22;
+  }
+
+  .hambuger .bar {
+      position: relative;
+      top: 6px;
+      border: 2px solid #06c559;
+      padding: 5px 7px;
+      border-radius: 3px;
+      background-color: #fff;
+  }
+
+  .hambuger .bar:hover {
+      background-color: rgba(251, 248, 248, 0.871);
+      color: #3030308d;
+  }
+
+  .hambuger .close {
+      position: relative;
+      top: 20px;
+      right: 6px;
+      /* border: none; */
+      font-size: 1.2rem;
+      padding: 5px 7px;
+      border-radius: 3px;
+      background-color: #fff;
+
+  }
+
+
+  .hambuger .close:hover {
+      background-color: rgba(240, 235, 235, 0.51);
+      color: #0000008d;
+  }
+
+
+  .mobile-menu {
+      display: flex;
+      flex-direction: column;
+      z-index: 999;
+      /* align-items: center; */
+      background-color: #fff;
+      box-shadow: 0 3px 10px rgba(178, 178, 178, 0.365);
+      position: fixed;
+      inset: 1rem 1rem 8rem 1rem;
+      padding: 2rem;
+      gap: 2rem;
+      border-radius: 6px;
+
+  }
+
+  .mobile-menu[data-visible="false"] {
+      display: none;
+  }
+
+  .hambuger i[data-visible="true"] {
+      display: block;
+
+  }
+
+  .hambuger div i[data-visible="false"] {
+      display: none;
+
+  }
+
+
+  .mobile-menu .logo-humbegar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+  }
+
+  .mobile-menu .logo-humbegar::before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      top: 5rem;
+      left: 0;
+
+      height: 1.3px;
+      background-color: rgba(178, 178, 178, 0.565);
+  }
+
+  .mobile-menu .logo-humbegar img {
+      width: 100px;
+      height: 40px;
+  }
+
+  .mobile-menu .logo-humbegar .hambuger i {
+      font-size: 1.2rem;
+      color: grey;
+      cursor: pointer;
+
+  }
+
+  .mobile-menu .menus {
+      display: flex;
+      flex-direction: column;
+      /* align-items: center; */
+      gap: 2.5rem;
+
+  }
+
+  .mobile-menu .menus .links {
+      /* display: flex;
+      padding-inline: 1rem;
+      align-items: flex-start;
+      justify-content: space-between; */
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+
+  .mobile-menu .menus .links div {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      /* background-color: antiquewhite; */
+  }
+
+
+  .mobile-menu .menus .links div a {
+      color: #000000;
+      font-size: 1rem;
+      font-weight: 500;
+
+
+  }
+
+  .mobile-menu .menus .btns {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.8rem;
+
+  }
+
+  .mobile-menu .menus .btns a {
+      color: #000000;
+      font-weight: 500;
+      /* display: flex; */
+      /* text-align: center; */
+
+  }
+
+  .mobile-menu .menus .btns a span {
+      color: rgba(111, 111, 111, 0.662);
+      margin-right: 2px;
+  }
+
+  .mobile-menu .menus .btns .Signup {
+      background-color: #00A472;
+      width: 100%;
+      text-align: center;
+      padding: .5rem;
+      border-radius: 5px;
+      color: #fff;
+  }
+
+  .mobile-menu .menus .btns .Signup:hover {
+      background-color: #00835f;
+  }
+  .footer .footer-right{
+    position: absolute;
+    top: -30px;
+}
+.footer .footer-right{
+    position: absolute;
+    top: -30px;
+}
+.footer-left{
+    text-align: center;
+}
+
+}
