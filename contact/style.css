@@ -219,6 +219,16 @@ label{
     float: right;
    }
    
+   .footer{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    margin-block: 40px;
+
+}
+   
    .footer .footer-right{
     display: flex;
     gap: 30px;
@@ -431,7 +441,7 @@ label{
         color: white;
         margin-inline: auto;
        }
-       .footer .footer-right{
+    .footer .footer-right{
         position: absolute;
         top: -30px;
     }
