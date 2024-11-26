@@ -17,7 +17,7 @@
     <!-- hambegar -->
     <div class="container hambuger">
 
-      <img src="./resources/white_green.png" alt=""> 
+      <img src="./resources/white_green.png"  alt=""> 
       <div>
         <i data-visible="true" class="fa-solid fa-bars-staggered  bar"></i>
         <i class="fa-solid fa-close  close" data-visible="false"></i>
@@ -28,13 +28,13 @@
 
     <!-- desktop-menu -->
     <nav class="container desktop-menu">
-      <img src="./resources/white_green.png" alt="">
+      <img src="./resources/white_green.png" href="index.html" alt="">
 
       <ul class="menus-link">
-        <li><a href="#">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="#">Courses</a></li>
         <li><a href="#">Mentorship</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="About_us.html">About</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
       <div class="btns">
@@ -300,21 +300,28 @@
       <p>Discover Your Perfect Program In Our Courses</p>
       <div class="bottom">
         <div class="box1">
-          <i class="fa-solid fa-quote-left"></i>
+          <div><i class="fa-solid fa-quote-left"></i></div>
+          <p>Aad ban ugu faraxsanahy inaan kamid noqday teamka dugsiiye.</p>
+          <img src="./resources/gedi.jpeg" alt="">
+          <h2>Eng Geedi</h2>
+          <span>Fullsatck developer</span>
+        </div>
+        <div class="box1">
+          <div><i class="fa-solid fa-quote-left"></i></div>
           <p>Aad ban ugu faraxsanahy inaan kamid noqday teamka dugsiiye.</p>
           <img src="./resources/IMG_5560 copy.jpg" alt="">
           <h2>Abdala Ergin</h2>
           <span>Fullsatck developer</span>
         </div>
         <div class="box1">
-          <i class="fa-solid fa-quote-left"></i>
+          <div><i class="fa-solid fa-quote-left"></i></div>
           <p>Aad ban ugu faraxsanahy inaan kamid noqday teamka dugsiiye.</p>
-          <img src="./resources/IMG_5560 copy.jpg" alt="">
-          <h2>Abdala Ergin</h2>
+          <img src="./resources/gedi.jpeg" alt="">
+          <h2>Eng Geedi</h2>
           <span>Fullsatck developer</span>
         </div>
         <div class="box1">
-          <i class="fa-solid fa-quote-left"></i>
+          <div><i class="fa-solid fa-quote-left"></i></div>
           <p>Aad ban ugu faraxsanahy inaan kamid noqday teamka dugsiiye.</p>
           <img src="./resources/IMG_5560 copy.jpg" alt="">
           <h2>Abdala Ergin</h2>
@@ -345,26 +352,8 @@
 
 <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 
-<script>
-  const hamburger = document.querySelector('.hambuger');
-  const mobileMenu = document.querySelector(".mobile-menu");
-  const icons = document.querySelectorAll("i");
-
-  hamburger.addEventListener("click", function (event) {
-    const isVisible = mobileMenu.getAttribute('data-visible');
-    if (isVisible == "true") {
-      // qari hiding
-      mobileMenu.setAttribute('data-visible', "false");
-      icons[0].setAttribute('data-visible', "true");
-      icons[1].setAttribute('data-visible', "false");
-    } else if (isVisible == "false") {
-      // soo bandhig showing
-      mobileMenu.setAttribute('data-visible', "true");
-      icons[0].setAttribute('data-visible', "false");
-      icons[1].setAttribute('data-visible', "true");
-    }
-  });
-
+<script src="main.js">
+  
 
 
 

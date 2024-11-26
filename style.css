@@ -10,12 +10,16 @@
     /* background-color: rgb(0, 0, 0); */
 }
 
+.ugaara-about-pageka .menus-link li a{
+    color: #000000;
+}
+
 img {
     width: 100%;
 }
 
 .poeple-say{
-    width: min(70%, 1266px);
+    width: min(80%, 1266px);
     margin-inline: auto;
     z-index: 99;
 }
@@ -570,7 +574,7 @@ header {
 .student-say .poeple-say .bottom{
     margin-top: 3.5rem;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     gap: 2rem;
 }
 
@@ -591,9 +595,15 @@ header {
   border-radius: 50%;
 }
 
-.student-say .poeple-say .bottom .box1 i{
+.student-say .poeple-say .bottom .box1 div{
     display: flex;
-    float: left;
+    position: relative;
+    left: 1rem;
+    width: 100%;
+}
+
+.student-say .poeple-say .bottom .box1 i{
+
     margin-block: .4rem;
     font-size: 1.5rem;
     color: #00835f;
@@ -606,7 +616,7 @@ header {
 }
 
 .student-say .poeple-say .bottom .box1 h2{
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 700;
 }
 .student-say .poeple-say .bottom .box1 span{
