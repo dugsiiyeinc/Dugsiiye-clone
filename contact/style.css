@@ -395,4 +395,28 @@ label{
     .mobile-menu .menus .btns .Signup:hover {
         background-color: #00835f;
     }
+
+    .Contact{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-inline: auto;
+      }
+      .group{
+        display: block;
+        gap: 40px;
+        
+       }
+       button{
+        margin-top: 30px;
+        width: 100%;
+        padding: 20px;
+        background-color: #00835f;
+        color: white;
+        margin-inline: auto;
+       }
+       .footer .footer-right{
+        position: absolute;
+        top: -30px;
+    }
+    
 }
