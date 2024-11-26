@@ -418,5 +418,12 @@ label{
         position: absolute;
         top: -30px;
     }
+    .footer .footer-right{
+        position: absolute;
+        top: -30px;
+    }
+    .footer-left{
+        text-align: center;
+    }
     
 }
