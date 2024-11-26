@@ -454,4 +454,14 @@ iframe{
     .Courses-bottom img{
         width: 100%;
     }
+    .courses-vidoe{
+        margin-block: 10%;
+        display: flex;
+        flex-direction: column;
+      
+    }
+    iframe{
+        width: 100%;
+        height: 300px;
+    }
 }
