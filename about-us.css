@@ -109,9 +109,55 @@ header {
 
 }
 
-.
+.About-sec{
+    width: 70%;
+    margin-inline: auto;
+    margin-block: 4rem;
+}
+
+.About-sec .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
 
 
+.About-sec .container .sec1{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.About-sec .container .sec1 h1,p{
+    text-align: center;
+}
+
+.About-sec .container .sec1 p{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #00a472;
+    text-transform: uppercase;
+}
+
+.About-sec .container .sec1 h1{
+    font-weight: 800;
+    font-size: 2rem;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.About-sec .container .sec1 span{
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #6b7280;
+}
+
+
+
+
+
+/* footer section */
 
 footer{
     margin-block: 2rem;
@@ -119,6 +165,13 @@ footer{
     top: 1.6rem;
 }
 
+
+@media(max-width:1050px) {
+    .desktop-menu img {
+        width: 0;
+    }
+
+}
 
 
 
@@ -294,6 +347,16 @@ footer{
 
     .mobile-menu .menus .btns .Signup:hover {
         background-color: #00835f;
+    }
+
+    .About-sec{
+        width: 95%;
+        margin-inline: auto;
+        margin-block: 4rem;
+    }
+
+    .About-sec .container .sec1 h1{
+        font-size: 1.5rem;
     }
 
 }
