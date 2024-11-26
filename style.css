@@ -953,6 +953,21 @@ footer .container .foter-right i:hover{
 
     footer .container .foter-right{
         text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-top: .75rem;
+        gap: .75rem;
+    }
+
+    footer .container .foter-left{
+        font-weight: 400;
+        font-size: .75rem;
+        color: #9ca3af;
+    }
+    
+    footer .container .foter-right i{
+        font-size: 1rem;
+
     }
 
     
