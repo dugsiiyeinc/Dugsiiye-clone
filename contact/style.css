@@ -19,3 +19,90 @@ img {
     margin-inline: auto;
     z-index: 99;
 }
+header {
+    width: 100%;
+    height: 5.2rem;
+    z-index: 888;
+    position: sticky;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.desktop-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* z-index: 9999; */
+
+}
+
+.desktop-menu img {
+    width: 240px;
+    height: 80px;
+}
+
+.desktop-menu .menus-link {
+    display: flex;
+    gap: 30px;
+}
+
+.desktop-menu .menus-link li a {
+    color: rgb(0, 0, 0);
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.desktop-menu .btns {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.desktop-menu .btns a {
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+
+
+}
+
+.desktop-menu .btns .Signup {
+    background-color: #00A472;
+    padding: .5rem;
+    border: none;
+    border-radius: 2px;
+}
+
+.desktop-menu .btns .Signup:hover {
+    background-color: #00835f;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.hambuger {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 1rem;
+    transition: .3s ease;
+    z-index: 999;
+
+}
+
+.hambuger img {
+    width: 14rem;
+    height: 4.375rem;
+}
+
+.hambuger i {
+    font-size: .8rem;
+    /* font-weight: 400; */
+    color: rgba(128, 128, 128, 0.713);
+    cursor: pointer;
+    z-index: 9999;
+
+}
