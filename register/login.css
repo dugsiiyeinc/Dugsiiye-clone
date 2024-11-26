@@ -109,6 +109,17 @@ header {
     z-index: 9999;
 
 }
+.footer .footer-right{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.footer .footer-right i{
+    font-size: 1.3rem;
+    color: 
+    rgb(156, 163, 175);
+}
 
 
 
@@ -290,5 +301,18 @@ header {
   
     .mobile-menu .menus .btns .Signup:hover {
         background-color: #00835f;
+    }
+
+
+    .footer .footer-right{
+        position: absolute;
+        top: -30px;
+    }
+    .footer .footer-right{
+        position: absolute;
+        top: -30px;
+    }
+    .footer-left{
+        text-align: center;
     }
 }
