@@ -17,7 +17,7 @@
     <!-- hambegar -->
     <div class="container hambuger">
 
-      <img src="./resources/white_green.png" alt="">
+      <img src="./resources/white_green.png"  alt=""> 
       <div>
         <i data-visible="true" class="fa-solid fa-bars-staggered  bar"></i>
         <i class="fa-solid fa-close  close" data-visible="false"></i>
@@ -28,13 +28,13 @@
 
     <!-- desktop-menu -->
     <nav class="container desktop-menu">
-      <img src="./resources/white_green.png" alt="">
+      <img src="./resources/white_green.png" href="index.html" alt="">
 
       <ul class="menus-link">
-        <li><a href="#">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="#">Courses</a></li>
         <li><a href="#">Mentorship</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="About_us.html">About</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
       <div class="btns">
@@ -251,7 +251,7 @@
 
         <div class="box">
           <img src="https://dugsiiye.com/_next/image?url=https%3A%2F%2Fdugsiiyeimages.s3.ap-south-1.amazonaws.com%2FhclV6DogkcDv9chhL69R7.jpeg&w=1080&q=75" alt="">
-          <button>Web Development</button>
+          <button>Web Development </button>
           <h2>Php For Professionals</h2>
           <p>USD 30.00 For Life Time Access</p>
         </div>
@@ -295,27 +295,38 @@
   </section>
 
   <section class="student-say">
+<<<<<<< HEAD
     <div class=" poeple-say">
+=======
+    <div class="poeple-say">
+>>>>>>> ef4b63a06f9341e630e9964f2f4065f595b44954
       <h1>What Our Students Have To Say</h1>
       <p>Discover Your Perfect Program In Our Courses</p>
       <div class="bottom">
         <div class="box1">
-          <i class="fa-solid fa-quote-left"></i>
-          <p>Aad ban ugu faraxsanahy inaan kamid noqday teamka dugsiiye , dugsiiye waa madal  lagu barto culuumta technologies ka.</p>
+          <div><i class="fa-solid fa-quote-left"></i></div>
+          <p>Aad ban ugu faraxsanahy inaan kamid noqday teamka dugsiiye.</p>
+          <img src="./resources/gedi.jpeg" alt="">
+          <h2>Eng Geedi</h2>
+          <span>Fullsatck developer</span>
+        </div>
+        <div class="box1">
+          <div><i class="fa-solid fa-quote-left"></i></div>
+          <p>Aad ban ugu faraxsanahy inaan kamid noqday teamka dugsiiye.</p>
           <img src="./resources/IMG_5560 copy.jpg" alt="">
           <h2>Abdala Ergin</h2>
           <span>Fullsatck developer</span>
         </div>
         <div class="box1">
-          <i class="fa-solid fa-quote-left"></i>
-          <p>Aad ban ugu faraxsanahy inaan kamid noqday teamka dugsiiye , dugsiiye waa madal  lagu barto culuumta technologies ka.</p>
-          <img src="./resources/IMG_5560 copy.jpg" alt="">
-          <h2>Abdala Ergin</h2>
+          <div><i class="fa-solid fa-quote-left"></i></div>
+          <p>Aad ban ugu faraxsanahy inaan kamid noqday teamka dugsiiye.</p>
+          <img src="./resources/gedi.jpeg" alt="">
+          <h2>Eng Geedi</h2>
           <span>Fullsatck developer</span>
         </div>
         <div class="box1">
-          <i class="fa-solid fa-quote-left"></i>
-          <p>Aad ban ugu faraxsanahy inaan kamid noqday teamka dugsiiye , dugsiiye waa madal  lagu barto culuumta technologies ka.</p>
+          <div><i class="fa-solid fa-quote-left"></i></div>
+          <p>Aad ban ugu faraxsanahy inaan kamid noqday teamka dugsiiye.</p>
           <img src="./resources/IMG_5560 copy.jpg" alt="">
           <h2>Abdala Ergin</h2>
           <span>Fullsatck developer</span>
@@ -326,7 +337,11 @@
 
   <footer>
     <div class="container">
+<<<<<<< HEAD
      <div class="foter-left">© 2024 Dugsiiye Online Courses. All rights reserved.</div>
+=======
+      <div class="foter-left">© 2024 Dugsiiye Online Courses. All rights reserved.</div>
+>>>>>>> ef4b63a06f9341e630e9964f2f4065f595b44954
       <div class="foter-right">
         <i class="fa-brands fa-whatsapp"></i>
         <i class="fa-brands fa-facebook"></i>
@@ -345,26 +360,8 @@
 
 <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 
-<script>
-  const hamburger = document.querySelector('.hambuger');
-  const mobileMenu = document.querySelector(".mobile-menu");
-  const icons = document.querySelectorAll("i");
-
-  hamburger.addEventListener("click", function (event) {
-    const isVisible = mobileMenu.getAttribute('data-visible');
-    if (isVisible == "true") {
-      // qari hiding
-      mobileMenu.setAttribute('data-visible', "false");
-      icons[0].setAttribute('data-visible', "true");
-      icons[1].setAttribute('data-visible', "false");
-    } else if (isVisible == "false") {
-      // soo bandhig showing
-      mobileMenu.setAttribute('data-visible', "true");
-      icons[0].setAttribute('data-visible', "false");
-      icons[1].setAttribute('data-visible', "true");
-    }
-  });
-
+<script src="main.js">
+  
 
 
 

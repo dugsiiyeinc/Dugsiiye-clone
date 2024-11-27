@@ -10,12 +10,18 @@
     /* background-color: rgb(0, 0, 0); */
 }
 
+
+
 img {
     width: 100%;
 }
 
 .poeple-say{
+<<<<<<< HEAD
     width: min(50%, 1266px);
+=======
+    width: min(80%, 1266px);
+>>>>>>> ef4b63a06f9341e630e9964f2f4065f595b44954
     margin-inline: auto;
     z-index: 99;
 }
@@ -24,6 +30,7 @@ img {
     width: min(90%, 1266px);
     margin-inline: auto;
     z-index: 99;
+    
 }
 
 header {
@@ -556,7 +563,7 @@ header {
 .student-say .poeple-say .bottom{
     margin-top: 3.5rem;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     gap: 2rem;
 }
 
@@ -567,11 +574,12 @@ header {
     padding: .75rem;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 3px 10px rgba(186, 185, 185, 0.278);
+    box-shadow: 0 3px 10px rgba(201, 201, 201, 0.278);
     border-radius: 8px;
 }
 
 .student-say .poeple-say .bottom .box1 img{
+<<<<<<< HEAD
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -582,6 +590,24 @@ header {
     right: 4rem;
     margin-block: .4rem;
     font-size: 1.2rem;
+=======
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.student-say .poeple-say .bottom .box1 div{
+    display: flex;
+    position: relative;
+    left: 1rem;
+    width: 100%;
+}
+
+.student-say .poeple-say .bottom .box1 i{
+
+    margin-block: .4rem;
+    font-size: 1.5rem;
+>>>>>>> ef4b63a06f9341e630e9964f2f4065f595b44954
     color: #00835f;
 
 }
@@ -592,7 +618,11 @@ header {
 }
 
 .student-say .poeple-say .bottom .box1 h2{
+<<<<<<< HEAD
     font-size: 1.3rem;
+=======
+    font-size: 1rem;
+>>>>>>> ef4b63a06f9341e630e9964f2f4065f595b44954
     font-weight: 700;
 }
 .student-say .poeple-say .bottom .box1 span{
@@ -670,12 +700,12 @@ footer .container .foter-right i:hover{
        
     }
 
-    .student-say .container h1{
+    .student-say .poeple-say h1{
         font-weight: 700;
         font-size: 1.4rem;
     }
 
-    .student-say .container .bottom{
+    .student-say .poeple-say .bottom{
         margin-top: 3.5rem;
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -919,12 +949,12 @@ footer .container .foter-right i:hover{
     }
 
 
-    .student-say .container p{
+    .student-say .poeple-say p{
         font-weight: 400;
         font-size: .8rem;
     }
 
-    .student-say .container .bottom{
+    .student-say .poeple-say .bottom{
         display: grid;
         grid-template-columns: 1fr;
     
@@ -947,9 +977,28 @@ footer .container .foter-right i:hover{
     }
 
     footer .container .foter-right{
+<<<<<<< HEAD
         display: flex;
         align-items: center;
         justify-content: center;
+=======
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-top: .75rem;
+        gap: .75rem;
+    }
+
+    footer .container .foter-left{
+        font-weight: 400;
+        font-size: .75rem;
+        color: #9ca3af;
+    }
+    
+    footer .container .foter-right i{
+        font-size: 1rem;
+
+>>>>>>> ef4b63a06f9341e630e9964f2f4065f595b44954
     }
 
     footer .container .foter-right i{
