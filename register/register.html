@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+  <header>
+
+    <!-- hambegar -->
+    <div class="container hambuger">
+
+      <img src="https://dugsiiye.com/dark_green.png" alt="">
+      <div>
+        <i data-visible="true" class="fa-solid fa-bars-staggered  bar"></i>
+        <i class="fa-solid fa-close  close" data-visible="false"></i>
+      </div>
+    </div>
+
+
+
+    <!-- desktop-menu -->
+    <nav class="container desktop-menu">
+      <img src="https://dugsiiye.com/dark_green.png" alt="">
+
+      <ul class="menus-link">
+        <li><a href="#">Home</a></li>
+        <li><a href="/couses/couses.html">Courses</a></li>
+        <li><a href="#">Mentorship</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="/contact/index.html">Contact</a></li>
+      </ul>
+      <div class="btns">
+        <a href="/register/login.html">Sign in
+        </a>
+        <a class="Signup" href="/register/register.html">Sign up</a>
+      </div>
+    </nav>
+
+
+    <!-- mobile-menu -->
+    <nav class=" mobile-menu" data-visible="false">
+
+      <div class="logo-humbegar">
+        <img src="https://dugsiiye.com/dark_green.png" alt="">
+
+
+
+      </div>
+
+      <!-- <ul class="menus-link">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Mentorship</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul> -->
+
+
+      <div class="menus">
+        <div class="links">
+          <div>
+            <a href="#">Home</a>
+            <a href="#">Mentorship</a>
+            <a href="/contact/index.html">Contact</a>
+          </div>
+          <div>
+            <a href="/couses/couses.html">Courses</a>
+            <a href="#">About</a>
+
+          </div>
+        </div>
+
+        <div class="btns">
+
+          <a class="Signup" href="/register/login.html">Sign up</a>
+
+          <a href="/register/register.html"> <span>Existing User?</span> Sign in
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- resgister  -->
+  <div class="containers register">
+    <div class="right-register">
+        <form action="">
+       <div class="from-right">
+         
+            <label for="">UserName</label> 
+            <input type="text" placeholder=""> <br>
+         
+          <label for="">Phone</label>
+          <input type="number" placeholder=""> <br>
+       
+            <label for="">Email</label>  
+            <input type="email" placeholder=""> <br>
+       
+          <label for="">Password</label>
+          <input type="password" placeholder=""> <br>
+        <button type="submit">Submit</button>
+      </div>
+      <div class="register-end">
+        <p>Already Registred ? <a href="/register/login.html">Login</a></p>
+      </div>
+        </form>
+      </div>
+</div>
+      <!-- footer section -->
+      <section class="footer">
+        <div class="footer-left">
+          <span>© 2024 Dugsiiye Online Courses. All rights reserved.</span>
+        </div>
+        <div class="footer-right">
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </section>
+    <script>
+      const hamburger = document.querySelector('.hambuger');
+      const mobileMenu = document.querySelector(".mobile-menu");
+      const icons = document.querySelectorAll("i");
+    
+      hamburger.addEventListener("click", function (event) {
+        const isVisible = mobileMenu.getAttribute('data-visible');
+        if (isVisible == "true") {
+          // qari hiding
+          mobileMenu.setAttribute('data-visible', "false");
+          icons[0].setAttribute('data-visible', "true");
+          icons[1].setAttribute('data-visible', "false");
+        } else if (isVisible == "false") {
+          // soo bandhig showing
+          mobileMenu.setAttribute('data-visible', "true");
+          icons[0].setAttribute('data-visible', "false");
+          icons[1].setAttribute('data-visible', "true");
+        }
+      });
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    </script>
+</body>
+</html>
