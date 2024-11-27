@@ -9,7 +9,9 @@
     font-family: "Poppins", sans-serif;
     /* background-color: rgb(0, 0, 0); */
 }
-
+body{
+    background-color: #F3F4F6;
+}
 img {
     width: 100%;
 }
@@ -24,7 +26,7 @@ header {
     height: 5.2rem;
     z-index: 888;
     position: sticky;
-    /* background-color: rgb(255, 255, 255); */
+    background-color: rgb(255, 255, 255);
 }
 
 .desktop-menu {
@@ -107,12 +109,12 @@ header {
 
 }
 .Contact{
+    margin-block: 10%;
     display: grid;
         grid-template-columns: repeat(3,1fr);
     border-radius: 15px;
     box-shadow: 0 7px 8px rgba(0,0,0,0.1);
     background-color: #f3f4f6;
-    margin-bottom: 30px;
    }
 
    .left-Contact{
@@ -220,12 +222,14 @@ label{
    }
    
    .footer{
+    background-color: white;
+    height: 5.2rem;
     position: relative;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-around;
-    margin-block: 40px;
+  
 
 }
    
@@ -240,6 +244,15 @@ label{
     color: 
     rgb(156, 163, 175);
 }
+.footer-left span{
+    display: flex;
+    margin-top: 27px;
+}
+
+
+
+
+
    @media(max-width:1050px) {
     .desktop-menu img {
         width: 0;
@@ -447,10 +460,11 @@ label{
     }
     .footer .footer-right{
         position: absolute;
-        top: -30px;
+        top: 15px;
     }
     .footer-left{
         text-align: center;
+        margin-top: 15px;
     }
     
 }

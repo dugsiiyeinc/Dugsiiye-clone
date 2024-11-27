@@ -113,7 +113,7 @@ header {
     
     max-width:600px ;
       margin-inline: auto;
-      padding: 76px 40px;
+      padding: 170px 50px;
   
   }
   a{
@@ -133,12 +133,6 @@ header {
   
          
      }
-  
-      .group{
-        display: block;
-        gap: 40px;
-        
-       }
   
     .inputs{
       display: inline-block;
@@ -183,11 +177,14 @@ header {
   .login-end p{
     padding: 20px;
   }
+
+
+  /* footer */
   
   .footer{
     background-color: white;
-    height: 5.2rem;
-    position: relative;
+    height: 6.2rem;
+    position: static;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -396,15 +393,16 @@ header {
 
 
     .footer .footer-right{
-        position: absolute;
-        top: -30px;
+        position: relative;
     }
     .footer .footer-right{
         position: absolute;
-        top: 15px;
+        top: 10px;
+        bottom: 45px;
     }
     .footer-left{
         text-align: center;
         margin-top: 15px;
     }
+
 }
