@@ -72,6 +72,9 @@ header {
 
 
 }
+.desktop-menu .btns a:last-child{
+    color: white;
+}
 
 .desktop-menu .btns .Signup {
     background-color: #00A472;
@@ -258,6 +261,14 @@ iframe{
         align-items: center;
         justify-content: center;
         margin-left: 15px;
+        color: #00835f;
+    }
+    .couses-btn button{
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 24px;
+        border: none;
+        border-radius: 5px;
     }
     .footer{
         background-color: white;

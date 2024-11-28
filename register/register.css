@@ -67,9 +67,12 @@ header {
     color: black;
     font-size: 1rem;
     font-weight: 500;
-
-
 }
+
+.desktop-menu .btns a:last-child{
+    color: white;
+}
+
 
 .desktop-menu .btns .Signup {
     background-color: #00A472;
