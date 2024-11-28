@@ -10,9 +10,9 @@
     font-family: "Poppins", sans-serif;
     
 }
-body{
+/* body{
     background-color: #F3F4F6;
-  }
+  } */
 
 img {
     width: 100%;
@@ -30,6 +30,10 @@ header {
     z-index: 888;
     position: sticky;
     background-color: rgb(255, 255, 255);
+}
+
+header:hover{
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
 }
 
 .desktop-menu {
@@ -257,7 +261,7 @@ iframe{
     }
 
    .btn-course i{
-        font-size: 25px;
+        font-size: 23px;
         align-items: center;
         justify-content: center;
         margin-left: 15px;
