@@ -17,7 +17,7 @@ img {
 }
 
 .poeple-say{
-
+    width: min(50%, 1266px);
     width: min(80%, 1266px);
     margin-inline: auto;
     z-index: 99;
@@ -581,6 +581,7 @@ header {
 
 .student-say .poeple-say .bottom .box1 img{
 
+/* >>>>>>> origin */
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -607,7 +608,11 @@ header {
 }
 
 .student-say .poeple-say .bottom .box1 h2{
+/* <<<<<<< HEAD
 
+======= */
+    font-size: 1.3rem;
+/* >>>>>>> origin */
     font-size: 1rem;
     font-weight: 700;
 }
@@ -679,8 +684,6 @@ footer .container .foter-right i:hover{
     }
 
     .courses .container .grid-courses {
-        /* display: flex;
-        flex-direction: column; */
         display: grid;
         grid-template-columns: repeat(2,1fr);
        
