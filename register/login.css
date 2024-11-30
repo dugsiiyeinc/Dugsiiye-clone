@@ -155,18 +155,20 @@ header {
     color: #172439;
   }
      input{
-        font-size: 22px;
+        font-size: 18px;
       display: flex;
       width: 100%;
       height: 50px;
       border-radius: 5px;
-      border: 1px solid gray; 
-      box-shadow: 0 2px 6px rgba(15,23,42,.08);
+      /* border: 1px solid gray;  */
+      border: none;
+      box-shadow: 0 1px 6px rgba(174, 174, 174, 0.441);
       text-align:left; 
+      padding: 0px 10px;
   
      } 
      input:focus{
-      outline: 1px solid green;
+      outline: 3px solid green;
      }
      button{
       width: 100%;
@@ -179,6 +181,7 @@ header {
       margin-inline: auto;
       margin-bottom: 20px;
       font-size: 20px;
+      box-shadow: 0 1px 6px rgba(174, 174, 174, 0.441);
      }
   .login-end{
     text-align: center;
@@ -213,6 +216,9 @@ header {
 .footer-left span{
     display: flex;
     margin-top: 27px;
+}
+.footer .footer-right i:hover{
+    color: #6b7280;
 }
 
 
