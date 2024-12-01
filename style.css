@@ -50,6 +50,7 @@ header {
 .desktop-menu img {
     width: 240px;
     height: 80px;
+    cursor: pointer;
 }
 
 .desktop-menu .menus-link {
