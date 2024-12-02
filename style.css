@@ -23,6 +23,10 @@ img {
     z-index: 99;
 }
 
+.poeple-say img{
+    width: 100%;
+}
+
 .container {
     width: min(90%, 1266px);
     margin-inline: auto;
@@ -577,6 +581,8 @@ header {
 }
 
 .student-say .poeple-say .bottom .box1 img{
+
+/* >>>>>>> origin */
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -603,7 +609,11 @@ header {
 }
 
 .student-say .poeple-say .bottom .box1 h2{
+/* <<<<<<< HEAD
+
+======= */
     font-size: 1.3rem;
+/* >>>>>>> origin */
     font-size: 1rem;
     font-weight: 700;
 }
@@ -957,7 +967,6 @@ footer .container .foter-right i:hover{
     }
 
     footer .container .foter-right{
-
         text-align: center;
         display: flex;
         justify-content: center;
